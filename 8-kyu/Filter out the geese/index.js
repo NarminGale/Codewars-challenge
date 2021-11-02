@@ -6,8 +6,6 @@ function gooseFilter(birds) {
   let result = []
 
   for (let i = 0; i < birds.length; i++) {
-    console.log(birds[i])
-
     if (!geese.includes(birds[i])) {
       result.push(birds[i])
     }
